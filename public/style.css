@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 75px;
+  padding: 0 32px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: #eee;
+}
+
+.header .header-logo img {
+  height: 55px;
+}
+
+.header .header-button {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-right: 128px;
+}
+/* end of header */
+
+/* form */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.form input {
+  padding: 4px;
+  width: 300px;
+  border: 0.5px grey solid;
+  background-color: white;
+}
+
+.form a {
+  text-transform: uppercase;
+  border: 0;
+  background-color: #f1c40f;
+  padding: 8px 16px;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.form a:hover {
+  background-color: orange;
+  transition: all 1s;
+}
+/* end of form */
+
+/* feature */
+.feature {
+  margin-top: 84px;
+}
+
+.feature-block {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 50px;
+}
+
+.feature-block img {
+  width: 36px;
+  height: auto;
+  margin: 0 76px;
+}
+
+.feature-desc {
+  line-height: 1.5;
+}
+
+.feature-text-content {
+  width: 700px;
+  line-height: 1.4;
+}
+/* end of feature */
+
+/* video */
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.video .video-frame {
+  width: 560px;
+  height: 315px;
+}
+/* end of video */
+
+/* option */
+.option {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 450px;
+}
+
+.option .option-block {
+  border: 1px black solid;
+  border-radius: 4px;
+  min-width: 313px;
+  height: 311px;
+  position: relative;
+}
+
+.option .option-desc {
+  list-style: none;
+  text-align: center;
+}
+
+.option .option-desc li {
+  padding: 4px 0;
+}
+
+.option .option-title {
+  text-transform: uppercase;
+  padding: 16px 0;
+  background-color: #ddd;
+  text-align: center;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.option .option-price {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 16px 0;
+}
+
+.option .option-select {
+  text-transform: uppercase;
+  padding: 12px 24px;
+  border: 0;
+  background-color: #f1c40f;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* end of option */
+
+/* footer */
+.footer {
+  margin: auto;
+  margin-top: 36px;
+  height: 80px;
+  width: 52%;
+  background-color: #ddd;
+  bottom: 0;
+  display: flex;
+  justify-content: right;
+}
+
+.footer .footer-block {
+  margin-right: 16px;
+}
+
+.footer .footer-title-block {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+  padding: 0 16px;
+}
+
+.footer .footer-title {
+  display: inline-block;
+  font-weight: 520;
+}
+
+.footer .footer-title:hover {
+  cursor: pointer;
+}
+
+.footer .footer-desc {
+  margin-top: 4px;
+  color: #444;
+  font-size: 14px;
+}
+/* end of footer */
