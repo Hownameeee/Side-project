@@ -1,4 +1,4 @@
-const url = "http://192.168.0.102:3000";
+const url = "http://localhost:3000";
 
 function createObject(method, data) {
   if (method === "GET") {
@@ -35,11 +35,3 @@ function sendGet() {
       data.value = messback.messback;
     });
 }
-
-function main() {
-  alert(
-    "This application just build to run on certain devices (monitor 16:9 or 1920x1080) so there will be some error about number (width, height, ...)"
-  );
-}
-
-main();

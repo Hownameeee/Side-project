@@ -1,2 +1,9 @@
-# Notice
-This application is designed to run on 1920x1080 devices (16:9 aspect ratio) so there may be errors related to screen resolution (such as width, height, etc.) when used on devices with different display configurations.
+# IP address configuration
+The access IP (localhost or private IP) should be the same with fetch IP url in main.js:1.
+
+# Run application
+Ensure your device already has nodejs
+>Run in CLI
+```bash
+npm start
+```

@@ -9,6 +9,11 @@ body {
   background-color: #eee;
 }
 
+#main {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
 .content {
   margin-top: 100px;
 }
@@ -68,6 +73,11 @@ body {
 .form a:hover {
   background-color: orange;
   transition: all 1s;
+  cursor: pointer;
+}
+
+.form a:active {
+  cursor: grabbing;
 }
 /* end of form */
 
@@ -94,7 +104,7 @@ body {
 }
 
 .feature-text-content {
-  width: 700px;
+  /* width: 700px; */
   line-height: 1.4;
 }
 /* end of feature */
@@ -116,21 +126,22 @@ body {
 .option {
   margin-top: 60px;
   display: flex;
-  justify-content: space-around;
-  padding: 0 450px;
+  justify-content: space-between;
+  gap: 20px;
+  /* padding: 0 450px; */
 }
 
 .option .option-block {
   border: 1px black solid;
   border-radius: 4px;
-  min-width: 313px;
-  height: 311px;
+  width: 100%;
   position: relative;
 }
 
 .option .option-desc {
   list-style: none;
   text-align: center;
+  width: 100%;
 }
 
 .option .option-desc li {
@@ -144,6 +155,10 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: medium;
+}
+
+.option .option-desc li:last-child {
+  margin-bottom: 100px;
 }
 
 .option .option-price {
@@ -173,7 +188,7 @@ body {
   margin: auto;
   margin-top: 36px;
   height: 80px;
-  width: 52%;
+  width: 100%;
   background-color: #ddd;
   bottom: 0;
   display: flex;
